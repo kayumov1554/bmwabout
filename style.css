@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+nav .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 50px;
+    justify-content: space-between;
+    background: white;
+    position: fixed;
+}
+nav .container .left h1{
+    padding: 10px 0 0 20px;
+    font-size: 35px;
+        background-image: url("https://get.wallhere.com/photo/1920x1200-px-3D-colorful-Funerium-galaxy-space-stars-1289047.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+}
+
+nav .container .left .card{
+    display: flex;
+}
+nav .container .left .card img{
+    width: 60px;
+}
+
+nav .container .right h1{
+    padding: 10px 30px;
+    font-size: 35px;
+        background-image: url("https://get.wallhere.com/photo/1920x1200-px-3D-colorful-Funerium-galaxy-space-stars-1289047.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+}
+
+.section1 .container{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url("https://s1.1zoom.ru/b5448/490/BMW_Aristo_i8_Night_Black_532581_2560x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 .container .left{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .container .left .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section1 .container .left .box h1{
+    font-size: 35px;
+    animation-delay: .8s;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+}
+
+.section1 .container .left .box .bmw{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: top;
+    background-clip: text;
+    color: transparent;
+    animation-delay: .2s;
+}
+
+.section1 .container .left p{
+    font-size: 19px;
+    width: 600px;
+    text-align: center;
+    padding: 20px 0;
+    animation-delay: 1.5s;
+}
+
+
+.section1 .container .right{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.section1 .container .right h1{
+    padding: 0 0 30px;
+    font-size: 35px;
+    animation-delay: 2s;
+}
+
+.section1 .container .right .about{
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+    animation-delay: 2.2s;
+}
+.section1 .container .right .about:nth-child(2){
+    animation-delay: 2.3s;
+}
+.section1 .container .right .about:nth-child(3){
+    animation-delay: 2.4s;
+}
+.section1 .container .right .about:nth-child(4){
+    animation-delay: 2.5s;
+}
+.section1 .container .right .about:nth-child(5){
+    animation-delay: 2.6s;
+}
+.section1 .container .right .about:nth-child(6){
+    animation-delay: 2.7s;
+}
+.section1 .container .right .about:nth-child(7){
+    animation-delay: 2.8s;
+}
+
+
+.section1 .container .right .about span{
+    border-left: 2px solid white;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.section2 .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url("https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-bmv-v-obvesakh-na-oboi-40.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2 .container .left{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .container .left .box{
+    display: flex;
+    gap: 30px;
+}
+
+.section2 .container .left .box h1{
+    font-size: 35px;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    animation-delay: .6s;
+}
+
+.section2 .container .left .box .bmw{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: top;
+    background-clip: text;
+    color: transparent;
+    animation-delay: .3s;
+}
+
+.section2 .container .left p{
+    font-size: 19px;
+    width: 600px;
+    text-align: center;
+    padding: 20px 0;
+    animation-delay: 1.1s;
+}
+
+.section2 .container .right{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.section2 .container .right h1{
+    padding: 0 0 30px;
+    font-size: 35px;
+    animation-delay: 1.9s;
+}
+
+.section2 .container .right .about{
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+    animation-delay: 2s;
+}
+.section2 .container .right .about:nth-child(2){
+    animation-delay: 2.1s;
+}
+.section2 .container .right .about:nth-child(3){
+    animation-delay: 2.2s;
+}
+.section2 .container .right .about:nth-child(4){
+    animation-delay: 2.3s;
+}
+.section2 .container .right .about:nth-child(5){
+    animation-delay: 2.4s;
+}
+.section2 .container .right .about:nth-child(6){
+    animation-delay: 2.5s;
+}
+.section2 .container .right .about:nth-child(7){
+    animation-delay: 2.6s;
+}
+
+.section3 .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)), url("https://w-dog.ru/wallpapers/0/18/498102983739750/bmw-m5-e60-chernyj-perednie-kolesa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.section3 .container .left{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .container .left .box{
+    display: flex;
+    gap: 30px;
+}
+
+.section3 .container .left .box h1{
+    font-size: 35px;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    animation-delay: .6s;
+}
+
+.section3 .container .left .box .bmw{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613309176_48-p-sinii-gradientnii-fon-56.png");
+    background-size: cover;
+    background-position: top;
+    background-clip: text;
+    color: transparent;
+    animation-delay: .3s;
+}
+
+.section3 .container .left p{
+    font-size: 19px;
+    width: 600px;
+    text-align: center;
+    padding: 20px 0;
+    animation-delay: 1.1s;
+}
+
+.section3 .container .right{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.section3 .container .right h1{
+    padding: 0 0 30px;
+    font-size: 35px;
+    animation-delay: 1.9s;
+}
+
+.section3 .container .right .about{
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+    animation-delay: 2s;
+}
+.section3 .container .right .about:nth-child(2){
+    animation-delay: 2.1s;
+}
+.section3 .container .right .about:nth-child(3){
+    animation-delay: 2.2s;
+}
+.section3 .container .right .about:nth-child(4){
+    animation-delay: 2.3s;
+}
+.section3 .container .right .about:nth-child(5){
+    animation-delay: 2.4s;
+}
+.section3 .container .right .about:nth-child(6){
+    animation-delay: 2.5s;
+}
+.section3 .container .right .about:nth-child(7){
+    animation-delay: 2.6s;
+}

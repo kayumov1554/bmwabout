@@ -1,0 +1,164 @@
+@media screen and (max-width: 400px) {
+    nav .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+    }
+
+    nav .container .left h1 {
+        font-size: 30px;
+    }
+
+    nav .container .left .card img {
+        width: 50px;
+        margin-top: 3px;
+    }
+
+    nav .container .right h1 {
+        font-size: 30px;
+    }
+
+    .section1 .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+
+    .section1 .container .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 .container .left .box h1 {
+        font-size: 30px;
+    }
+
+    .section1 .container .left .box .bmw {
+        font-size: 30px;
+    }
+
+    .section1 .container .left p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .section1 .container .right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1 .container .right h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section1 .container .right .about {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .section2 .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+
+    .section2 .container .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .container .left .box h1 {
+        font-size: 30px;
+    }
+
+    .section2 .container .left .box .bmw {
+        font-size: 30px;
+    }
+
+    .section2 .container .left p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .section2 .container .right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2 .container .right h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section2 .container .right .about {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .section3 .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+
+    .section3 .container .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section3 .container .left .box h1 {
+        font-size: 30px;
+    }
+
+    .section3 .container .left .box .bmw {
+        font-size: 30px;
+    }
+
+    .section3 .container .left p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .section3 .container .right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3 .container .right h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section3 .container .right .about {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+    }
+
+}
